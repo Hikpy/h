@@ -336,7 +336,7 @@ install(){
         exit 1
     fi
 
-    clear
+    #clear
     echo
     echo -e "Congratulations, Shadowsocks-python server install completed!"
     echo -e "Your Server IP        : \033[41;37m $(get_ip) \033[0m"
