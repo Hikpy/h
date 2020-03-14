@@ -6,12 +6,12 @@ from email.header import Header
   
 # 第三方 SMTP 服务  
 mail_host="smtp.qq.com"  #设置服务器  
-mail_user="785603062@qq.com"    #用户名  
-mail_pass="rckphomiwnutbbde"   #口令,QQ邮箱是输入授权码，在qq邮箱设置 里用验证过的手机发送短信获得，不含空格  
+mail_user=""    #用户名  
+mail_pass=""   #口令,QQ邮箱是输入授权码，在qq邮箱设置 里用验证过的手机发送短信获得，不含空格  
   
   
-sender = '785603062@qq.com'  
-receivers = ['785603062@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱  
+sender = ''  
+receivers = ['']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱  
 
 content = '服务宕机了'; # 内容
   
