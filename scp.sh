@@ -12,7 +12,7 @@ expect {
 "*yes/no" { send "yes\r"; exp_continue}
 "*password:" {send "$pwd\r"}
 }
-expect "*#"
+
 systemctl restart v2-ui 
 
 interact
