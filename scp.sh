@@ -13,8 +13,9 @@ expect {
 "*password:" {send "$pwd\r"}
 }
 
-systemctl restart v2-ui 
+
 
 interact
 expect eof
 EOF
+systemctl restart v2-ui 
