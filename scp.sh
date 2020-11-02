@@ -12,7 +12,8 @@ expect {
 "*yes/no" { send "yes\r"; exp_continue}
 "*password:" {send "$pwd\r"}
 }
-
+expect "*#"
+send "systemctl restart v2-ui \r"
 
 interact
 expect eof
