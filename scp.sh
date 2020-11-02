@@ -18,6 +18,7 @@ expect {
 interact
 expect eof
 EOF
+
 systemctl restart v2-ui 
 
-echo 1>2.txt
+
