@@ -13,7 +13,7 @@ expect {
 "*password:" {send "$pwd\r"}
 }
 expect "*#"
-send "systemctl restart v2-ui \r"
+systemctl restart v2-ui 
 
 interact
 expect eof
